@@ -63,7 +63,7 @@ npm start
 
 ## ✨ Example Hero Tagline
 
-> _Transforming [Ideas | Concepts | Code | Innovation | Collaboration] into Real-World Impact with IEEE._
+> _Empowering Students to Transform [Ideas | Concepts | Design | Code] into Innovation that Matters._
 
 ---
 

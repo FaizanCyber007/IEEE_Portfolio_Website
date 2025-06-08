@@ -9,7 +9,7 @@ html,
 body {
   width: 100dvw;
   overflow-x: hidden;
-  background-color: black;
+  background-color: #001926;
   color: white;
   scroll-behavior: smooth;
   font-family: "Mona Sans", sans-serif;
@@ -27,6 +27,7 @@ section {
   --color-black-200: #282732;
   --color-blue-50: #839cb5;
   --color-blue-100: #2d2d38;
+  --color-blue-700: #00679A;
 }
 
 @layer utilities {
@@ -85,7 +86,7 @@ section {
   }
 
   .hero-text {
-    @apply flex flex-col justify-center md:text-[48px] text-[18px] font-semibold relative z-10 pointer-events-none;
+    @apply flex flex-col justify-center md:text-[48px] text-[35px] font-semibold relative z-10 pointer-events-none;
     img {
       @apply size-7 md:size-9 object-contain;
     }

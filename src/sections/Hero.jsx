@@ -17,8 +17,8 @@ const Hero = () => {
 
   return (
     <section id="hero" className="relative overflow-hidden">
-      <div className="absolute top-0 left-0 z-10">
-        <img src="/images/bg.png" alt="" />
+      <div className="absolute h-5 top-0 left-0 z-10">
+        <img src="/images/ElectricShock2.png" alt="" className="h-200 opacity-20" />
       </div>
 
       <div className="hero-layout">
@@ -26,7 +26,8 @@ const Hero = () => {
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h6>
-                Empowering Students <br />to Transform
+                Empowering Students <br />
+                to Transform
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
@@ -45,15 +46,18 @@ const Hero = () => {
                   </span>
                 </span>
               </h6>
-              <h6>into Innovation that <br />Matters.</h6>
+              <h6>
+                into Innovation that <br />
+                Matters.
+              </h6>
             </div>
 
-            <p className="text-white-50 md:text-l relative z-10 pointer-events-none">
-              IEEE Student Branch - COMSATS University Islamabad, Lahore Campus.
+            <p className="text-white text-sm sm:text-base md:text-lg xl:text-xl relative z-10 pointer-events-none">
+              IEEE Student Branch – COMSATS University Islamabad, Lahore Campus.
             </p>
 
             <Button
-              text="See My Work"
+              text="Learn More!"
               className="md:w-80 md:h-16 w-60 h-12"
               id="counter"
             />
