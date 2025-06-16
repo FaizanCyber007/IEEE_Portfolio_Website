@@ -378,10 +378,9 @@ section {
 
 .gradient-edge:nth-of-type(1) {
   left: 0;
-  background: rgb(0, 0, 0);
   background: linear-gradient(
     90deg,
-    rgba(0, 0, 0, 1) 0%,
+    #00679a91 0%,
     rgba(255, 255, 255, 0) 100%
   );
 }
@@ -389,7 +388,7 @@ section {
   right: 0;
   background: linear-gradient(
     -90deg,
-    rgba(0, 0, 0, 1) 0%,
+    #00679a91 0%,
     rgba(255, 255, 255, 0) 100%
   );
 }

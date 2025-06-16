@@ -46,12 +46,12 @@ const counterItems = [
   },
   {
     label: "Events & Workshops",
-    value: 50,
+    value: 20,
     suffix: "+",
   },
   {
     label: "Dedicated Volunteers",
-    value: 25,
+    value: 50,
     suffix: "+",
   },
   {
@@ -63,215 +63,140 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "/images/logos/intel-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "/images/logos/samsung-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "/images/logos/apple-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "/images/logos/microsoft-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: "/images/logos/IBM-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-6.png",
+    imgPath: "/images/logos/quantinuum-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-7.png",
+    imgPath: "/images/logos/alibaba-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-8.png",
+    imgPath: "/images/logos/qualcomm-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "/images/logos/Nvidia-logo.png",
   },
 ];
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    
+    imgPath: "/images/time.png",
+    title: "Fostering Innovation",
+    desc: "Encouraging creative solutions through hands-on technical workshops, hackathons, and real-world projects.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Strong Community",
+    desc: "Building a network of passionate students, researchers, and professionals committed to learning and collaboration.",
   },
   {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath: "/images/seo.png",
+    title: "Leadership Development",
+    desc: "Empowering members with opportunities to lead, organize events, and grow as future industry leaders.",
   },
 ];
 
-const techStackImgs = [
-  {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
-  },
-  {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
-  },
-  {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
-  },
-  {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
-  },
-  {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
-  },
-];
 
-const techStackIcons = [
-  {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
-  },
-  {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
-  },
-];
 
 const expCards = [
   {
+    title: "Tech Talk Series 2024",
+    date: "February - April 2024",
+    logoPath: "/images/tech-logo.png",
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+      "An interactive session series where industry experts shared insights on AI, Robotics, and IoT. Great participation and feedback from students.",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Organized 5+ sessions featuring speakers from Google, IEEE, and local startups.",
+      "Engaged 400+ attendees across all sessions.",
+      "Collaborated with marketing and event teams for outreach and logistics.",
     ],
   },
   {
+    title: "Annual IEEE Mega Event",
+    date: "October 2023",
+    logoPath: "/images/event-logo.png",
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+      "Our flagship event of the year, combining coding competitions, design contests, and speaker sessions. A true celebration of tech and innovation!",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Managed logistics for 700+ participants from 10+ universities.",
+      "Coordinated with sponsors, volunteers, and speakers.",
+      "Introduced interactive workshops and IEEE membership drives.",
     ],
   },
   {
+    title: "Robotics Bootcamp",
+    date: "July 2023",
+    logoPath: "/images/robo-logo2.png",
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+      "A week-long training program on robotics fundamentals, Arduino, and hands-on bot development. Boosted interest in RAS society.",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Led by IEEE RAS in collaboration with the Department of CS.",
+      "Provided hands-on learning kits to 50+ participants.",
+      "Conducted final bot challenge and rewarded top 3 performers.",
     ],
   },
 ];
 
-const expLogos = [
-  {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
-  },
-  {
-    name: "logo2",
-    imgPath: "/images/logo2.png",
-  },
-  {
-    name: "logo3",
-    imgPath: "/images/logo3.png",
-  },
-];
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Hassan Raza",
+    mentions: "@hassan_ieee",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+      "Being part of IEEE RAS has been a game-changer. The workshops and coding competitions truly elevated my technical skills and boosted my confidence in robotics and automation.",
+    imgPath: "/images/members/member1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Ayesha Noor",
+    mentions: "@ayesha_noor",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+      "The society creates an amazing learning environment. From hands-on project work to leadership opportunities, IEEE RAS helped me grow personally and professionally.",
+    imgPath: "/images/members/member2.png",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Usman Khalid",
+    mentions: "@usmank_ieee",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
+      "Volunteering in IEEE RAS gave me the exposure I was looking for. Organizing technical events and leading workshops taught me more than any classroom could.",
+    imgPath: "/images/members/member3.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Zainab Ahmed",
+    mentions: "@zainab.ahmed",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "IEEE RAS connects passionate students with industry professionals through seminars and guest talks. These sessions are inspiring and opened up new perspectives for me.",
+    imgPath: "/images/members/member4.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Talha Tariq",
+    mentions: "@talhatariq",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+      "IEEE RAS society provided me with real-world teamwork experience. Working on inter-university competitions helped sharpen my problem-solving skills under pressure.",
+    imgPath: "/images/members/member5.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Fatima Sheikh",
+    mentions: "@fatima_sheikh",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+      "Joining IEEE RAS was one of the best decisions in my university life. It helped me network, build skills, and explore new technologies in AI and robotics.",
+    imgPath: "/images/members/member6.png",
   },
 ];
+
 
 const socialImgs = [
   {
@@ -292,16 +217,21 @@ const socialImgs = [
   },
 ];
 
+const eventImages = {
+  event1: "/images/Image1.JPG",
+  event2: "/images/DSC_0058.JPG",
+  event3: "/images/IMG_9732.jpg",
+};
+
+
 export {
   words,
   abilities,
   logoIconsList,
   counterItems,
   expCards,
-  expLogos,
   testimonials,
   socialImgs,
-  techStackIcons,
-  techStackImgs,
   navLinks,
+  eventImages,
 };

@@ -15,8 +15,8 @@ const RobotWithEffects = () => {
   const groupRef = useRef();
   const spotLightRef = useRef();
   const [showLaser, setShowLaser] = useState(false);
-  const [scale, setScale] = useState(0.01);
-  const targetScale = 0.12;
+  const [scale, setScale] = useState(0.001);
+  const targetScale = 0.1;
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -39,7 +39,7 @@ const RobotWithEffects = () => {
     <group 
       ref={groupRef}
       scale={scale}
-      position={[4, -1.3, 1.5]}
+      position={[4, -2, 1.5]}
       rotation={[0, 0.8, -0.2]}
     >
       <Robot />
@@ -80,7 +80,6 @@ const HeroExperience = () => {
         autoRotate={false}
         minPolarAngle={Math.PI / 3}
         maxPolarAngle={Math.PI / 2}
-        target={[0, 0, 0]}
       />
 
       <Suspense fallback={<Html>Loading...</Html>}>
